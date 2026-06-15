@@ -1,0 +1,12 @@
+metric,value
+cohort_n,428406.0
+events_ascvd,69897.0
+ascvd_prevalence,0.1632
+cv_auc_train_mean,0.7685
+cv_auc_train_sd,0.0019
+test_auc,0.7662
+test_auc_ci_lo,0.7629
+test_auc_ci_hi,0.7697
+test_brier,0.1177
+noageldl_test_auc,0.7349
+n_features,19.0

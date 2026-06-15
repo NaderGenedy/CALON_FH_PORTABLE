@@ -1,0 +1,35 @@
+# ============================================================================
+# CALON_FH_PORTABLE -- GitHub push policy (UK Biobank DUA)
+# Push: code, docs, skills, manuscripts, website, the DATA INVENTORY, and the
+# curated AGGREGATE results. NEVER push participant-level data or heavy trees.
+# ============================================================================
+
+# --- Data-bearing / heavy trees: NOT pushed (live on D: only) ---
+data/
+projects/
+assets/
+_build/
+
+# --- Raw data formats: never push, anywhere in the tree ---
+*.parquet
+*.rds
+*.feather
+*.dta
+*.sav
+
+# --- The repo DOES ship these (generated; live at root / results_public) ---
+!DATA_INVENTORY_ON_D.csv
+!DATA_INVENTORY_ON_D.md
+# results_public/ is a curated, allowlisted aggregate set -> tracked (not ignored)
+
+# --- Skill workspace artefacts (not skill definitions) ---
+skills/ukb-data-audit-workspace/
+skills/**/*-workspace/
+
+# --- Python / OS noise ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db

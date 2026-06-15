@@ -1,0 +1,31 @@
+Variant,Gene,Domain,SSS,ddG_kcal_mol,pLDDT,N_patients,Mean_LDL_mmol_L,Mean_ApoB_g_L,ASCVD_pct,Mean_Treatment_Response,Cluster
+LDLRc.933del,LDLR,EGF-precursor-homology,1.00,NA,NA,938,NA,NA,0.0,NA,Moderate
+APOB:c.10580G>A,APOB,ApoB-RBD,0.65,NA,NA,45,4.73,1.31,13.3,29.90,Mild-benign
+LDLR:c.418G>C,LDLR,Ligand-binding R3,0.67,5.34,83.80,29,5.72,1.52,17.2,37.10,Moderate
+LDLR:c.1217G>C,LDLR,Beta-propeller,0.61,10.03,89.20,22,6.15,1.13,4.5,50.18,Severe-responsive
+LDLR:c.1897C>T,LDLR,EGF-like C,0.37,1.96,92.70,12,4.93,1.40,0.0,39.83,Mild-benign
+LDLR:c.1816G>T,LDLR,Beta-propeller,0.26,-0.28,89.60,11,4.90,1.24,0.0,13.94,Mild-benign
+LDLR:c.301G>A,LDLR,Ligand-binding R2,0.36,-1.07,86.60,11,6.31,1.55,18.2,34.20,Severe-responsive
+Deletion of exon 7 LDLR,LDLR,Unknown,1.00,NA,NA,10,6.21,1.18,30.0,74.76,Severe-responsive
+Duplication of exons 2 - 12 LDLR,LDLR,Unknown,0.85,NA,NA,10,6.34,1.27,30.0,39.66,Severe-responsive
+LDLR:c.1444G>A,LDLR,Beta-propeller,0.42,NA,96.40,10,5.09,1.43,10.0,33.82,Moderate
+LDLR:c.1745T>C,LDLR,Beta-propeller,0.28,0.50,90.70,10,6.03,1.64,10.0,19.98,Moderate
+LDLR:c.196_197delGT,LDLR,Ligand-binding,1.00,NA,NA,10,5.48,1.68,10.0,37.95,Moderate
+LDLR:c.313+1G>A,LDLR,Ligand-binding,0.95,NA,NA,9,4.67,1.21,0.0,18.24,Mild-benign
+LDLR:c.1048C>T,LDLR,EGF-like A,0.38,0.02,93.30,8,4.48,1.39,37.5,65.67,High-risk-treated
+LDLR:c.1187-10G>A,LDLR,EGF-precursor-homology,0.80,NA,NA,8,6.35,1.42,0.0,43.75,Severe-responsive
+LDLR:c.118del,LDLR,Ligand-binding,1.00,NA,NA,8,5.83,1.94,25.0,NA,High-risk-treated
+LDLR:c.2042G>C,LDLR,Linker (EGF-C/O-linked),0.56,5.81,94.40,7,5.40,1.35,57.1,NA,High-risk-treated
+APOE:c.500_502del,APOE,Unknown,1.00,NA,NA,6,3.74,0.80,16.7,11.11,Mild-benign
+LDLR:c.1285G>A,LDLR,Beta-propeller,0.49,3.96,93.20,6,5.80,1.45,0.0,39.58,Moderate
+LDLR:c.2054C>T,LDLR,Linker (EGF-C/O-linked),0.42,3.72,93.70,6,5.44,1.24,0.0,26.25,Moderate
+LDLR:c.681C>G,LDLR,Ligand-binding R5,0.41,1.00,86.20,6,6.47,1.40,50.0,53.09,Severe-responsive
+LDLR:c.266G>A,LDLR,Ligand-binding R2,0.54,NA,81.60,5,5.50,1.38,0.0,NA,Moderate
+LDLR:c.280G>T,LDLR,Ligand-binding R2,0.46,0.94,82.30,5,4.92,1.88,0.0,35.45,Mild-benign
+LDLR:c.680_681delAC,LDLR,Ligand-binding,1.00,NA,NA,5,5.35,1.26,40.0,44.94,High-risk-treated
+LDLR:c.1010_1013dupAGTG,LDLR,EGF-precursor-homology,0.50,NA,NA,4,5.45,1.53,0.0,NA,Moderate
+LDLR:c.1061A>T,LDLR,EGF-like B,0.43,2.15,93.80,4,4.70,1.44,0.0,NA,Mild-benign
+LDLR:c.1241T>G,LDLR,Beta-propeller,0.42,NA,90.50,4,7.20,1.19,0.0,NA,Moderate
+LDLR:c.1291G>A,LDLR,Beta-propeller,0.24,-0.97,95.70,4,6.13,1.50,0.0,44.39,Severe-responsive
+LDLR:c.16_17insTTCCT,LDLR,Ligand-binding,1.00,NA,NA,4,4.47,1.05,0.0,NA,Mild-benign
+LDLR:c.1A>T,LDLR,Signal peptide,0.39,NA,22.90,4,8.00,1.27,25.0,NA,Severe-resistant

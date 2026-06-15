@@ -1,0 +1,10 @@
+Clinical scenario,TUDOR threshold,Sensitivity,Specificity,"PPV — population
+(prev. 0.2%)","PPV — lipid clinic
+(prev. 1.3%)","PPV — cascade
+(prev. 50%)",NPV,LR+,LR−
+"Population screening
+(maximise sensitivity)",0.003,94.0%,17.6%,0.2%,1.5%,53.3%,99.9%,1.14,0.34
+"Lipid clinic triage
+(Youden optimal)",0.045,64.2%,81.1%,0.7%,4.3%,77.3%,99.4%,3.40,0.44
+"Cascade confirmation
+(maximise specificity)",0.159,38.5%,95.0%,1.5%,9.2%,88.5%,99.2%,7.73,0.65

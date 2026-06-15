@@ -1,0 +1,17 @@
+Model,Formula,N,Events,AUC,SSS_coef,SSS_OR,SSS_pval,Delta_AUC
+1,ascvd ~ age + sex,418,61,0.73,,,,
+2,ascvd ~ age + sex + sss,418,61,0.73,0.20,1.23,0.75,-0.00
+3,ascvd ~ age + sex + gene,418,61,0.75,,,,
+4,ascvd ~ age + sex + gene + sss,418,61,0.75,0.34,1.41,0.59,0.00
+5,ascvd ~ age + sex + ldl1,350,39,0.77,,,,
+6,ascvd ~ age + sex + ldl1 + sss,350,39,0.77,0.03,1.03,0.97,0.00
+7,ascvd ~ age + sex + on_statin,418,61,0.76,,,,
+8,ascvd ~ age + sex + on_statin + sss,418,61,0.76,0.02,1.02,0.98,0.00
+9,ascvd ~ age + sex + ldl1 + on_statin,350,39,0.80,,,,
+10,ascvd ~ age + sex + ldl1 + on_statin + sss,350,39,0.81,-0.22,0.80,0.79,0.00
+11,ascvd ~ age + sex + ldl1 + on_statin + dm + smoking,350,39,0.83,,,,
+12,ascvd ~ age + sex + ldl1 + on_statin + dm + smoking + sss,350,39,0.83,-0.34,0.71,0.69,0.00
+13,ascvd ~ age + sex + ldl1 + on_statin + dm + smoking + hypertension,350,39,0.83,,,,
+14,ascvd ~ age + sex + ldl1 + on_statin + dm + smoking + hypertension +     sss,350,39,0.83,-0.34,0.71,0.69,0.00
+15,ascvd ~ age + sex + ldl1 + on_statin + dm + smoking + hypertension +     xanthomata,350,39,0.85,,,,
+16,ascvd ~ age + sex + ldl1 + on_statin + dm + smoking + hypertension +     xanthomata + sss,350,39,0.85,-0.66,0.52,0.46,0.00

@@ -1,0 +1,5 @@
+Gene,Total_Variants,Clinical_Significance_Distribution
+APOB,7,"{'Pathogenic/Likely pathogenic': 4, 'Likely pathogenic': 3}"
+LDLR,100,"{'Pathogenic': 56, 'Likely pathogenic': 44}"
+LDLRAP1,9,"{'Pathogenic': 7, 'Pathogenic/Likely pathogenic': 1, 'Likely pathogenic': 1}"
+PCSK9,5,{'Pathogenic/Likely pathogenic': 5}

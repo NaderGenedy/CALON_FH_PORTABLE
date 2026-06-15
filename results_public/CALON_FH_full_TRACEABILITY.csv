@@ -1,0 +1,32 @@
+item,value,source_file,raw_field,formula
+age,feature (post-imputation),ukb_FULL_MASTER.csv,age,available pre-imputation in 10793/10793 rows
+male,feature (post-imputation),ukb_FULL_MASTER.csv,male,available pre-imputation in 10793/10793 rows
+ldl_ut,feature (post-imputation),ukb_FULL_MASTER.csv,ldl_ut,available pre-imputation in 9023/10793 rows
+log_apob_ldl,feature (post-imputation),ukb_FULL_MASTER.csv,log_apob_ldl,available pre-imputation in 3332/10793 rows
+apob_ldl_high,feature (post-imputation),ukb_FULL_MASTER.csv,apob_ldl_high,available pre-imputation in 3332/10793 rows
+log_tg_hdl,feature (post-imputation),ukb_FULL_MASTER.csv,log_tg_hdl,available pre-imputation in 8568/10793 rows
+ever_smoked,feature (post-imputation),ukb_FULL_MASTER.csv,ever_smoked,available pre-imputation in 7253/10793 rows
+t2dm,feature (post-imputation),ukb_FULL_MASTER.csv,t2dm,available pre-imputation in 7253/10793 rows
+htn,feature (post-imputation),ukb_FULL_MASTER.csv,htn,available pre-imputation in 7253/10793 rows
+has_phys_sign,feature (post-imputation),ukb_FULL_MASTER.csv,has_phys_sign,available pre-imputation in 10793/10793 rows
+fh,feature (post-imputation),ukb_FULL_MASTER.csv,fh,available pre-imputation in 10793/10793 rows
+log_lpa,feature (post-imputation),ukb_FULL_MASTER.csv,log_lpa,available pre-imputation in 2933/10793 rows
+lpa_high,feature (post-imputation),ukb_FULL_MASTER.csv,lpa_high,available pre-imputation in 2933/10793 rows
+bmi,feature (post-imputation),ukb_FULL_MASTER.csv,bmi,available pre-imputation in 2307/10793 rows
+OR_htn,1.638,,elastic-net coef,exp(standardised logistic coef)
+OR_male,1.426,,elastic-net coef,exp(standardised logistic coef)
+OR_has_phys_sign,1.262,,elastic-net coef,exp(standardised logistic coef)
+OR_log_tg_hdl,1.255,,elastic-net coef,exp(standardised logistic coef)
+OR_ever_smoked,1.232,,elastic-net coef,exp(standardised logistic coef)
+OR_log_apob_ldl,1.199,,elastic-net coef,exp(standardised logistic coef)
+OR_apob_ldl_high,1.178,,elastic-net coef,exp(standardised logistic coef)
+OR_t2dm,1.149,,elastic-net coef,exp(standardised logistic coef)
+OR_age,1.087,,elastic-net coef,exp(standardised logistic coef)
+OR_bmi,1.026,,elastic-net coef,exp(standardised logistic coef)
+OR_log_lpa,0.983,,elastic-net coef,exp(standardised logistic coef)
+OR_lpa_high,0.967,,elastic-net coef,exp(standardised logistic coef)
+OR_ldl_ut,0.893,,elastic-net coef,exp(standardised logistic coef)
+OR_fh,0.666,,elastic-net coef,exp(standardised logistic coef)
+CALON_AUC,0.7614,,model output,"70/30 split, 5-fold CV. CV=0.7448; test 95% CI 0.737-0.785"
+SRE_AUC,0.7609,,model output,SAFEHEART 8-band features refitted on same MICE-imputed data
+Delta_AUC,0.0005,,paired comparison,"paired-bootstrap 95% CI -0.016-0.017, p≈0.9960"

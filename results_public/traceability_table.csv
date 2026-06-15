@@ -1,0 +1,91 @@
+claim_id,manuscript_section,claim_text,manuscript_value,source_csv,source_row_or_metric,formula_or_provenance,tolerance,status
+T01,Abstract,"Wales-clean cohort n",200,CALON_FINAL_v7_results.csv,metric=n_wales_clean,direct read,exact,PASS
+T02,Abstract,"Wales-clean events",54,CALON_FINAL_v7_results.csv,metric=events_wales_clean,direct read,exact,PASS
+T03,Abstract,"UKB carriers n",3540,CALON_FINAL_v7_results.csv,metric=n_ukb_carriers,direct read,exact,PASS
+T04,Abstract,"UKB events",165,CALON_FINAL_v7_results.csv,metric=events_ukb,direct read,exact,PASS
+T05,Abstract,"Direction A CALON AUC",0.741,CALON_FINAL_v7_results.csv,metric=A_CALON_AUC,direct read (0.7407 rounded to 3dp),±0.001,PASS
+T06,Abstract,"Direction A CALON CI low",0.706,CALON_FINAL_v7_results.csv,metric=A_CALON_CIlo,direct read (0.7060),±0.001,PASS
+T07,Abstract,"Direction A CALON CI high",0.773,CALON_FINAL_v7_results.csv,metric=A_CALON_CIhi,direct read (0.7734),±0.001,PASS
+T08,Abstract,"Direction A SAFEHEART AUC",0.678,CALON_FINAL_v7_results.csv,metric=A_SRE_AUC,direct read (0.6775),±0.001,PASS
+T09,Abstract,"Direction A SRE CI low",0.641,CALON_FINAL_v7_results.csv,metric=A_SRE_CIlo,direct read (0.6406),±0.001,PASS
+T10,Abstract,"Direction A SRE CI high",0.713,CALON_FINAL_v7_results.csv,metric=A_SRE_CIhi,direct read (0.7133),±0.001,PASS
+T11,Abstract,"Direction A delta AUC",+0.063,CALON_FINAL_v7_results.csv,metric=A_delta_AUC,direct read (0.0634),±0.001,PASS
+T12,Abstract,"Direction A delta CI low",+0.044,CALON_FINAL_v7_results.csv,metric=A_delta_CIlo,direct read (0.0436),±0.001,PASS
+T13,Abstract,"Direction A delta CI high",+0.084,CALON_FINAL_v7_results.csv,metric=A_delta_CIhi,direct read (0.0840),±0.001,PASS
+T14,Abstract,"Direction A delta p-value","<0.001",CALON_FINAL_v7_results.csv,metric=A_delta_p,direct read (0.0000),exact,PASS
+T15,Abstract,"Direction B CALON AUC",0.723,CALON_FINAL_v7_results.csv,metric=B_CALON_AUC,direct read (0.7228),±0.001,PASS
+T16,Abstract,"Direction B CALON CI low",0.645,CALON_FINAL_v7_results.csv,metric=B_CALON_CIlo,direct read (0.6453),±0.001,PASS
+T17,Abstract,"Direction B CALON CI high",0.801,CALON_FINAL_v7_results.csv,metric=B_CALON_CIhi,direct read (0.8007),±0.001,PASS
+T18,Abstract,"Direction B SAFEHEART AUC",0.637,CALON_FINAL_v7_results.csv,metric=B_SRE_AUC,direct read (0.6369),±0.001,PASS
+T19,Abstract,"Direction B SRE CI low",0.558,CALON_FINAL_v7_results.csv,metric=B_SRE_CIlo,direct read (0.5575),±0.001,PASS
+T20,Abstract,"Direction B SRE CI high",0.716,CALON_FINAL_v7_results.csv,metric=B_SRE_CIhi,direct read (0.7161),±0.001,PASS
+T21,Abstract,"Direction B delta AUC",+0.086,CALON_FINAL_v7_results.csv,metric=B_delta_AUC,direct read (0.0856),±0.001,PASS
+T22,Abstract,"Direction B delta CI low",+0.016,CALON_FINAL_v7_results.csv,metric=B_delta_CIlo,direct read (0.0163),±0.001,PASS
+T23,Abstract,"Direction B delta CI high",+0.156,CALON_FINAL_v7_results.csv,metric=B_delta_CIhi,direct read (0.1561),±0.001,PASS
+T24,Abstract,"Direction B delta p-value",0.013,CALON_FINAL_v7_results.csv,metric=B_delta_p,direct read (0.0130),±0.001,PASS
+T25,Abstract,"Direction A NRI total",+0.246,CALON_FINAL_v7_results.csv,metric=A_NRI_total,direct read (0.2464),±0.001,PASS
+T26,Abstract,"Direction B NRI total",+0.238,CALON_FINAL_v7_results.csv,metric=B_NRI_total,direct read (0.2382),±0.001,PASS
+T27,Abstract,"Direction A IDI",+0.049,CALON_FINAL_v7_results.csv,metric=A_IDI,direct read (0.0491),±0.001,PASS
+T28,Abstract,"Direction B IDI",+0.016,CALON_FINAL_v7_results.csv,metric=B_IDI,direct read (0.0164),±0.001,PASS
+T29,Abstract,"≥65y subgroup delta AUC",+0.118,CALON_FINAL_v7_subgroup_NRI.csv,group=age_band level=>=65y direction=A,direct read (0.1178),±0.001,PASS
+T30,Abstract,"≥65y subgroup NRI",+0.332,CALON_FINAL_v7_subgroup_NRI.csv,group=age_band level=>=65y nri_total,direct read,±0.005,PASS
+T31,Methods,"Wales PASS master rows",7253,traceability log,methods step 1,direct file row count,exact,PASS
+T32,Methods,"DRAGON-3 inner join yield",424,CALON_FINAL_v7_traceability.csv,item=pass_dragon_join,direct read,exact,PASS
+T33,Methods,"With numeric baseline age",325,CALON_FINAL_v7_traceability.csv,item=clean_age_recovered,direct read,exact,PASS
+T34,Methods,"FH+ filter retained",321,CALON_FINAL_v7_traceability.csv,item=fh_positive_filter,direct read,exact,PASS
+T35,Methods,"Family-deduped final n",200,CALON_FINAL_v7_traceability.csv,item=family_deduped_n,direct read,exact,PASS
+T36,Methods,"L2 regularisation C",0.5,CALON_FINAL_v7.py,locked constant L2_C,code constant,exact,PASS
+T37,Methods,"Bootstrap iterations N",2000,CALON_FINAL_v7.py,locked constant N_BOOT,code constant,exact,PASS
+T38,Methods,"Random seed",20260524,CALON_FINAL_v7.py,locked constant SEED,code constant,exact,PASS
+T39,Methods,"NRI thresholds","(0.05; 0.20)",CALON_FINAL_v7.py,locked constant NRI_CUTS,code constant,exact,PASS
+T40,Methods,"DCA thresholds tested","0.05; 0.10; 0.15; 0.20; 0.30",CALON_FINAL_v7.py,locked constant DCA_THRESHOLDS,code constant,exact,PASS
+T41,Methods,"Drug encoding scheme X.Y","statin × combination LLT, dose-specific reductions",CALON_FINAL_v7.py,STATIN_DOSE_REDUCTION dict,literature-anchored,exact,PASS
+T42,Methods,"Atorvastatin 80 mg reduction",0.55,CALON_FINAL_v7.py,STATIN_DOSE_REDUCTION (1;80)=0.55,literature reference 28-29,exact,PASS
+T43,Methods,"Rosuvastatin 40 mg reduction",0.55,CALON_FINAL_v7.py,STATIN_DOSE_REDUCTION (2;40)=0.55,literature reference 28-29,exact,PASS
+T44,Methods,"Ezetimibe additive reduction",0.20,CALON_FINAL_v7.py,COMBO_ADD value 1,literature reference 28,exact,PASS
+T45,Methods,"PCSK9i additive reduction",0.60,CALON_FINAL_v7.py,COMBO_ADD value 2,literature references 3-4,exact,PASS
+T46,Methods,"Total reduction cap",0.85,CALON_FINAL_v7.py,REDUCTION_CAP constant,prescribing conservatism,exact,PASS
+T47,Results,"Wales mean baseline age",44.3,CALON_FINAL_v7_results.csv,metric=wales_mean_age,direct read (44.33),±0.05,PASS
+T48,Results,"UKB mean recruitment age",56.2,CALON_FINAL_v7_results.csv,metric=ukb_mean_age,direct read (56.22),±0.05,PASS
+T49,Results,"Wales event prevalence (%)",27.0,CALON_FINAL_v7_results.csv,metric=wales_event_rate × 100,0.2700,±0.1,PASS
+T50,Results,"UKB event prevalence (%)",4.7,CALON_FINAL_v7_results.csv,metric=ukb_event_rate × 100,0.0466,±0.1,PASS
+T51,Results,"Harmonic mean ext AUC CALON",0.732,CALON_FINAL_v7_results.csv,metric=hmean_external_CALON,direct read (0.7317),±0.001,PASS
+T52,Results,"Harmonic mean ext AUC SRE",0.657,CALON_FINAL_v7_results.csv,metric=hmean_external_SRE,direct read (0.6566),±0.001,PASS
+T53,Results,"Direction A calibration intercept",-1.94,CALON_FINAL_v7_results.csv,metric=A_cal_intercept,direct read (-1.9384),±0.005,PASS
+T54,Results,"Direction A calibration slope",0.51,CALON_FINAL_v7_results.csv,metric=A_cal_slope,direct read (0.5062),±0.005,PASS
+T55,Results,"Direction B calibration intercept",+2.59,CALON_FINAL_v7_results.csv,metric=B_cal_intercept,direct read (2.5940),±0.005,PASS
+T56,Results,"Direction B calibration slope",1.11,CALON_FINAL_v7_results.csv,metric=B_cal_slope,direct read (1.1061),±0.005,PASS
+T57,Results,"Direction A Brier CALON",0.066,CALON_FINAL_v7_results.csv,metric=A_brier_CALON,direct read (0.0664),±0.001,PASS
+T58,Results,"Direction A Brier SAFEHEART",0.073,CALON_FINAL_v7_results.csv,metric=A_brier_SRE,direct read (0.0726),±0.001,PASS
+T59,Results,"Direction B Brier CALON",0.241,CALON_FINAL_v7_results.csv,metric=B_brier_CALON,direct read (0.2407),±0.001,PASS
+T60,Results,"Direction B Brier SAFEHEART",0.256,CALON_FINAL_v7_results.csv,metric=B_brier_SRE,direct read (0.2562),±0.001,PASS
+T61,Results,"Direction A NRI event",+0.127,CALON_FINAL_v7_results.csv,metric=A_NRI_event,direct read (0.1273),±0.001,PASS
+T62,Results,"Direction A NRI non-event",+0.119,CALON_FINAL_v7_results.csv,metric=A_NRI_nonevent,direct read (0.1191),±0.001,PASS
+T63,Results,"Direction B NRI event",+0.389,CALON_FINAL_v7_results.csv,metric=B_NRI_event,direct read (0.3889),±0.001,PASS
+T64,Results,"Direction B NRI non-event",-0.151,CALON_FINAL_v7_results.csv,metric=B_NRI_nonevent,direct read (-0.1507),±0.001,PASS
+T65,Results,"Active features Direction A",11,CALON_FINAL_v7_results.csv,metric=A_n_active_features,direct read,exact,PASS
+T66,Results,"Active features Direction B",12,CALON_FINAL_v7_results.csv,metric=B_n_active_features,direct read,exact,PASS
+T67,Results,"Dropped sign violators A","young_severe; apob_ldl_high",CALON_FINAL_v7_results.csv,metric=A_dropped_violators,direct read,exact,PASS
+T68,Results,"Dropped sign violators B","ldl_high",CALON_FINAL_v7_results.csv,metric=B_dropped_violators,direct read,exact,PASS
+T69,Results,"age_60p OR (Direction A)",2.12,CALON_FINAL_v7_coefficients.csv,feature=age_60p direction=A,OR_per_SD column (2.117),±0.01,PASS
+T70,Results,"male OR (Direction A)",1.76,CALON_FINAL_v7_coefficients.csv,feature=male direction=A,OR_per_SD column (1.761),±0.01,PASS
+T71,Results,"smoking OR (Direction A)",1.53,CALON_FINAL_v7_coefficients.csv,feature=smoking direction=A,OR_per_SD column (1.534),±0.01,PASS
+T72,Results,"age_30_59 OR (Direction A)",1.44,CALON_FINAL_v7_coefficients.csv,feature=age_30_59 direction=A,OR_per_SD column (1.435),±0.01,PASS
+T73,Results,"lpa_high OR (Direction A)",1.36,CALON_FINAL_v7_coefficients.csv,feature=lpa_high direction=A,OR_per_SD column (1.357),±0.01,PASS
+T74,Results,"t2dm OR (Direction A)",1.29,CALON_FINAL_v7_coefficients.csv,feature=t2dm direction=A,OR_per_SD column (1.285),±0.01,PASS
+T75,Results,"hdl_low OR (Direction A)",1.19,CALON_FINAL_v7_coefficients.csv,feature=hdl_low direction=A,OR_per_SD column (1.193),±0.01,PASS
+T76,Results,"Confounder-clean A AUC",0.737,output/v2/CALON_FH_perfect_sensitivity_results.csv,metric=auc_calon_clean_pooled,direct read (0.7368),±0.001,PASS
+T77,Results,"Subgroup A: Female delta",+0.057,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=sex level=Female,delta_auc (0.0572),±0.001,PASS
+T78,Results,"Subgroup A: Male delta",+0.083,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=sex level=Male,delta_auc (0.0829),±0.001,PASS
+T79,Results,"Subgroup A: <50y delta",+0.053,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=age_band level=<50y,delta_auc (0.0530),±0.001,PASS
+T80,Results,"Subgroup A: 50-65y delta",+0.053,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=age_band level=50-65y,delta_auc (0.0533),±0.001,PASS
+T81,Results,"Subgroup A: LDL<4.14 delta",+0.057,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=ldl_band level=LDL<4.14,delta_auc (0.0565),±0.001,PASS
+T82,Results,"Subgroup A: LDL 4.14-6.5 delta",+0.065,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=ldl_band level=LDL 4.14-6.5,delta_auc (0.0646),±0.001,PASS
+T83,Results,"Subgroup A: LDL>=6.5 delta",+0.062,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=ldl_band level=LDL>=6.5,delta_auc (0.0616),±0.001,PASS
+T84,Results,"Subgroup A: No DM delta",+0.044,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=t2dm level=No DM,delta_auc (0.0442),±0.001,PASS
+T85,Results,"Subgroup A: T2DM delta",+0.040,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=t2dm level=T2DM,delta_auc (0.0401),±0.001,PASS
+T86,Results,"Subgroup A: Non-smoker delta",+0.078,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=smoking level=Non-smoker,delta_auc (0.0779),±0.001,PASS
+T87,Results,"Subgroup A: Smoker delta",+0.072,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=smoking level=Smoker,delta_auc (0.0723),±0.001,PASS
+T88,Results,"Subgroup A: No HTN delta",+0.033,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=htn level=No HTN,delta_auc (0.0331),±0.001,PASS
+T89,Results,"Subgroup A: HTN delta",+0.047,CALON_FINAL_v7_subgroup_NRI.csv,direction=A group=htn level=HTN,delta_auc (0.0474),±0.001,PASS
+T90,Results,"Direction B HTN subgroup negative delta",-0.018,CALON_FINAL_v7_subgroup_NRI.csv,direction=B group=htn level=HTN,delta_auc (-0.0179),±0.001,PASS

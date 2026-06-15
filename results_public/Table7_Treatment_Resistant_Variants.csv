@@ -1,0 +1,14 @@
+Variant,Gene,Domain,SSS,ddG_kcal_mol,Mutation_Type,N_patients,Mean_LDL_baseline,Mean_LDL_on_treatment,Mean_pct_Reduction,Recommended_Intervention
+LDLR:c.1061A>T,,EGF-like B,0.43,2.15,substitution,4,4.70,2.80,-100.00,Combination therapy
+LDLR:c.118del,,Ligand-binding,1.00,NA,frameshift,8,5.83,2.96,-175.80,"PCSK9i + ezetimibe, consider apheresis"
+LDLR:c.1196C>A,,Beta-propeller,0.42,NA,substitution,1,2.50,NA,-252.00,Combination therapy
+LDLR:c.1444G>A,,Beta-propeller,0.42,NA,substitution,10,5.09,3.17,-31.81,Combination therapy
+LDLR:c.1567G>A,,Beta-propeller,0.42,NA,substitution,2,5.10,1.50,-90.20,Combination therapy
+LDLR:c.16_17insTTCCT,,Ligand-binding,1.00,NA,frameshift,4,4.47,4.23,-84.21,"PCSK9i + ezetimibe, consider apheresis"
+LDLR:c.2042G>C,,Linker (EGF-C/O-linked),0.56,5.81,substitution,7,5.40,3.20,-75.61,PCSK9i add-on
+LDLR:c.2138_2139del,,O-linked-sugar,1.00,NA,frameshift,1,4.30,NA,-74.42,"PCSK9i + ezetimibe, consider apheresis"
+LDLR:c.2389+2T>G,,Cytoplasmic,0.95,NA,splice_site,2,4.90,1.70,-58.93,"PCSK9i + ezetimibe, consider apheresis"
+LDLR:c.280G>T,,Ligand-binding R2,0.46,0.94,substitution,5,4.92,2.72,-58.55,Combination therapy
+LDLR:c.313+1G>A,,Ligand-binding,0.95,NA,splice_site,9,4.67,3.85,-25.93,"PCSK9i + ezetimibe, consider apheresis"
+LDLR:c.682G>A,,Ligand-binding R5,0.37,-0.32,substitution,1,3.40,3.50,-38.24,Combination therapy
+LDLR:c.817+1G>A,,Ligand-binding,0.95,NA,splice_site,1,5.50,4.10,-29.09,"PCSK9i + ezetimibe, consider apheresis"

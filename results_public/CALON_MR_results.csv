@@ -1,0 +1,13 @@
+quantity,value
+cohort_n,439657
+incident_ascvd_events,36410
+polygenic_F_statistic,3676.9
+polygenic_MR_HR_per_mmolL,1.22
+polygenic_MR_HR_CI_lo,0.909
+polygenic_MR_HR_CI_hi,1.945
+monogenic_MR_HR_measured_LDL,160238021.626
+monogenic_MR_HR_adjusted_LDL,NA
+negative_control_outcome,appendicitis K35
+negative_control_OR,0.986
+negative_control_p,0.3493
+clinical_model_LDL_OR_crosssectional,0.88

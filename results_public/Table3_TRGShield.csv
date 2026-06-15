@@ -1,0 +1,11 @@
+Model,Coefficient (OR or β),95% CI,p,Dataset
+Unadjusted OR (TRG Filter),1.897,1.860–1.934,<0.001,"CALON-FH (n=109,959)"
+Age + sex adjusted OR,1.821,1.784–1.860,<0.001,"CALON-FH (n=109,959)"
+T2DM adjusted OR (UKB LC)*,1.145,1.122–1.168,<0.001,"UKB LC cohort (n=36,739)"
+T2DM effect on TRG proxy (β),−0.477,−0.529 to −0.424,8.2×10⁻⁷⁰,UKB LC cohort
+BMI effect on TRG proxy (β per kg/m²),−0.067,−0.070 to −0.064,<0.001,UKB LC cohort
+Alcohol moderate vs light/none (β),−0.028,−0.062 to +0.007,0.112,UKB LC cohort
+Alcohol heavy vs light/none (β),−0.019,−0.052 to +0.014,0.264,UKB LC cohort
+Cohen's d — LDLR vs Non-FH,d=1.21,—,—,CALON-FH
+Cohen's d — APOB vs Non-FH,d=1.35,—,—,CALON-FH
+Cohen's d — T2DM+ vs T2DM−,d=0.563,—,p<0.001,UKB LC cohort

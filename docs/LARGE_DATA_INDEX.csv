@@ -1,0 +1,14 @@
+project,relpath,size_bytes,original_path
+CALON_AlphaFold_Rebuild,Paper3_ASCVD_Prediction\data.csv,5007237298,D:\Projects\CALON_AlphaFold_Rebuild\Paper3_ASCVD_Prediction\data.csv
+Lpa,rap_staging\05_prescriptions_meds\ukb_gp_prescriptions_FULL_4.7GB.csv,5007237298,D:\Projects\Lpa\rap_staging\05_prescriptions_meds\ukb_gp_prescriptions_FULL_4.7GB.csv
+Lpa_Multilevel,GCST90132314_buildGRCh37.tsv,3250443774,D:\Projects\Lpa_Multilevel\GCST90132314_buildGRCh37.tsv
+Lpa,ukb_FULL_MASTER_v2.csv,611052822,D:\Projects\Lpa\ukb_FULL_MASTER_v2.csv
+SHARED_MASTER_DATA,UKB\ukb_master.csv,364780680,D:\Projects\SHARED_MASTER_DATA\UKB\ukb_master.csv
+CALON_AlphaFold_Rebuild,data_paper3\T_STEP22_GP_all_lipid_Rx.csv,363549763,D:\Projects\CALON_AlphaFold_Rebuild\data_paper3\T_STEP22_GP_all_lipid_Rx.csv
+MD_Thesis_AlphaFold_Cardio,data\ukb_master_CORRECTED.csv,359498459,D:\Projects\MD_Thesis_AlphaFold_Cardio\data\ukb_master_CORRECTED.csv
+Lpa,ukb_FULL_MASTER_AUG.csv,353464889,D:\Projects\Lpa\ukb_FULL_MASTER_AUG.csv
+Lpa,Lpa_v21\ukb_FULL_MASTER_AUG.csv,353464889,D:\Projects\Lpa\Lpa_v21\ukb_FULL_MASTER_AUG.csv
+CALON_AlphaFold_Rebuild,data\ukb_FULL_MASTER.csv,347508913,D:\Projects\CALON_AlphaFold_Rebuild\data\ukb_FULL_MASTER.csv
+Lpa,ukb_FULL_MASTER.csv,347508913,D:\Projects\Lpa\ukb_FULL_MASTER.csv
+Lpa,Lpa_v21\ukb_FULL_MASTER.csv,347508913,D:\Projects\Lpa\Lpa_v21\ukb_FULL_MASTER.csv
+Lpa,rap_staging\01_master_severity\ukb_FULL_MASTER.csv,347508913,D:\Projects\Lpa\rap_staging\01_master_severity\ukb_FULL_MASTER.csv

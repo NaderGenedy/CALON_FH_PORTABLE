@@ -1,0 +1,8 @@
+d <- read.csv("TUDOR_UKB_Features (1).csv", nrows=2)
+nms <- names(d)
+cat("First 30 columns:\n")
+writeLines(head(nms, 30))
+cat("\nEid-like columns:\n")
+writeLines(grep("eid|EID|Eid|p\\.eid|participant", nms, value=TRUE, ignore.case=TRUE))
+cat("\nFirst column name:", nms[1], "\n")
+cat("First values:", paste(d[[1]][1:2], collapse=", "), "\n")

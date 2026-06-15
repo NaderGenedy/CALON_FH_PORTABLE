@@ -1,0 +1,162 @@
+variant_id,foldx_notation,wt_aa,mut_aa,position,domain,n_patients,ddG_kcal_mol,effect
+LDLR:c.1816G>T,AA606C,A,C,606,EGF-precursor-homology,280,0.467,neutral
+LDLR:c.301G>A,EA101S,E,S,101,Ligand-binding,137,0.176,neutral
+LDLR:c.1217G>C,RA406T,R,T,406,EGF-precursor-homology,95,4.655,destabilizing
+LDLR:c.2042G>C,CA681T,C,T,681,EGF-precursor-homology,84,6.614,destabilizing
+LDLR:c.2054C>T,PA685I,P,I,685,EGF-precursor-homology,83,6.446,destabilizing
+LDLR:c.1133A>C,QA378P,Q,P,378,EGF-precursor-homology,72,4.120,destabilizing
+LDLR:c.1897C>T,RA633W,R,W,633,EGF-precursor-homology,63,2.604,destabilizing
+LDLR:c.1745T>C,LA582S,L,S,582,EGF-precursor-homology,62,1.733,mild
+LDLR:c.1285G>A,VA429T,V,T,429,EGF-precursor-homology,54,2.260,destabilizing
+LDLR:c.1061A>T,DA354V,D,V,354,EGF-precursor-homology,53,-1.036,stabilizing
+LDLR:c.1436T>C,LA479A,L,A,479,EGF-precursor-homology,43,4.569,destabilizing
+LDLR:c.1048C>T,RA350W,R,W,350,EGF-precursor-homology,41,1.083,mild
+LDLR:c.1966C>A,HA656Y,H,Y,656,EGF-precursor-homology,32,2.406,destabilizing
+LDLR:c.681C>G,DA227W,D,W,227,Ligand-binding,31,28.471,destabilizing
+LDLR:c.136T>G,CA46G,C,G,46,Ligand-binding,29,2.173,destabilizing
+LDLR:c.502G>A,DA168S,D,S,168,Ligand-binding,29,-1.680,stabilizing
+LDLR:c.1447T>C,WA483H,W,H,483,EGF-precursor-homology,28,3.359,destabilizing
+LDLR:c.638G>C,SA213R,S,R,213,Ligand-binding,27,-0.730,stabilizing
+LDLR:c.280G>T,DA94C,D,C,94,Ligand-binding,26,-3.781,stabilizing
+LDLR:c.1291G>A,AA431T,A,T,431,EGF-precursor-homology,26,3.702,destabilizing
+LDLR:c.1474G>A,DA492R,D,R,492,EGF-precursor-homology,25,6.774,destabilizing
+LDLR:c.337G>A,EA113S,E,S,113,Ligand-binding,23,-0.089,neutral
+LDLR:c.682G>T,EA228C,E,C,228,Ligand-binding,22,-0.572,stabilizing
+LDLR:c.761A>C,QA254P,Q,P,254,Ligand-binding,22,-0.411,neutral
+LDLR:c.682G>A,EA228N,E,N,228,Ligand-binding,21,-0.374,neutral
+LDLR:c.1019G>A,CA340N,C,N,340,EGF-precursor-homology,20,3.427,destabilizing
+LDLR:c.1618G>A,AA540K,A,K,540,EGF-precursor-homology,19,4.197,destabilizing
+LDLR:c.418G>C,EA140A,E,A,140,Ligand-binding,19,-0.846,stabilizing
+LDLR:c.1003G>A,GA335S,G,S,335,EGF-like A,,0.00,neutral
+LDLR:c.1012T>G,CA338G,C,G,338,EGF-like A,,0.01,neutral
+LDLR:c.1013G>T,CA338F,C,F,338,EGF-like A,,0.63,neutral
+LDLR:c.1027G>A,GA343S,G,S,343,EGF-like A,,0.00,neutral
+LDLR:c.1055G>A,CA352Y,C,Y,352,EGF-like A,,8.35,highly_destabilising
+LDLR:c.1056C>G,CA352W,C,W,352,EGF-like A,,0.42,neutral
+LDLR:c.1061A>G,DA354G,D,G,354,EGF-like B,,0.07,neutral
+LDLR:c.1069G>A,EA357K,E,K,357,EGF-like B,,0.02,neutral
+LDLR:c.1073G>A,CA358Y,C,Y,358,EGF-like B,,0.45,neutral
+LDLR:c.1085A>C,DA362A,D,A,362,EGF-like B,,0.03,neutral
+LDLR:c.1090T>G,CA364G,C,G,364,EGF-like B,,0.07,neutral
+LDLR:c.1103G>C,CA368S,C,S,368,EGF-like B,,0.05,neutral
+LDLR:c.1105G>A,VA369I,V,I,369,EGF-like B,,0.01,neutral
+LDLR:c.1109A>C,NA370T,N,T,370,EGF-like B,,0.18,neutral
+LDLR:c.1145G>T,GA382V,G,V,382,EGF-like B,,0.16,neutral
+LDLR:c.1156G>T,DA386Y,D,Y,386,EGF-like B,,0.06,neutral
+LDLR:c.1181C>T,AA394V,A,V,394,Beta-propeller,,0.16,neutral
+LDLR:c.1195G>A,AA399T,A,T,399,Beta-propeller,,0.01,neutral
+LDLR:c.1196C>A,AA399D,A,D,399,Beta-propeller,,0.20,neutral
+LDLR:c.1196C>T,AA399V,A,V,399,Beta-propeller,,0.53,neutral
+LDLR:c.1216C>T,RA406C,R,C,406,Beta-propeller,,0.07,neutral
+LDLR:c.1223A>C,EA408A,E,A,408,Beta-propeller,,0.28,neutral
+LDLR:c.1238C>T,TA413I,T,I,413,Beta-propeller,,0.29,neutral
+LDLR:c.1241T>G,LA414W,L,W,414,Beta-propeller,,0.15,neutral
+LDLR:c.1246C>T,RA416C,R,C,416,Beta-propeller,,0.17,neutral
+LDLR:c.1318A>G,RA440G,R,G,440,Beta-propeller,,0.18,neutral
+LDLR:c.1325A>G,YA442C,Y,C,442,Beta-propeller,,0.06,neutral
+LDLR:c.1328G>C,WA443S,W,S,443,Beta-propeller,,0.03,neutral
+LDLR:c.1329G>T,WA443C,W,C,443,Beta-propeller,,0.05,neutral
+LDLR:c.1336C>T,LA446F,L,F,446,Beta-propeller,,0.04,neutral
+LDLR:c.1352T>A,IA451N,I,N,451,Beta-propeller,,0.07,neutral
+LDLR:c.1394A>G,YA465C,Y,C,465,Beta-propeller,,0.01,neutral
+LDLR:c.139G>A,DA47N,D,N,47,Ligand-binding R1,,0.24,neutral
+LDLR:c.1432G>A,GA478S,G,S,478,Beta-propeller,,0.16,neutral
+LDLR:c.1444G>A,DA482N,D,N,482,Beta-propeller,,0.02,neutral
+LDLR:c.1444G>C,DA482H,D,H,482,Beta-propeller,,2.70,destabilising
+LDLR:c.1466A>G,YA489C,Y,C,489,Beta-propeller,,0.13,neutral
+LDLR:c.1475A>C,DA492A,D,A,492,Beta-propeller,,0.04,neutral
+LDLR:c.1499T>C,VA500A,V,A,500,Beta-propeller,,0.01,neutral
+LDLR:c.1510A>G,KA504E,K,E,504,Beta-propeller,,0.20,neutral
+LDLR:c.1524G>C,RA508S,R,S,508,Beta-propeller,,0.03,neutral
+LDLR:c.1567G>A,VA523I,V,I,523,Beta-propeller,,0.00,neutral
+LDLR:c.1588T>G,FA530V,F,V,530,Beta-propeller,,0.03,neutral
+LDLR:c.1637G>T,GA546V,G,V,546,Beta-propeller,,0.32,neutral
+LDLR:c.1640T>C,LA547S,L,S,547,Beta-propeller,,0.01,neutral
+LDLR:c.1646G>A,GA549D,G,D,549,Beta-propeller,,0.43,neutral
+LDLR:c.1690A>C,NA564H,N,H,564,Beta-propeller,,0.17,neutral
+LDLR:c.1694G>C,GA565A,G,A,565,Beta-propeller,,0.01,neutral
+LDLR:c.1713C>T,LA571F,L,F,571,Beta-propeller,,0.01,neutral
+LDLR:c.1721G>T,RA574L,R,L,574,Beta-propeller,,0.17,neutral
+LDLR:c.1726T>A,YA576N,Y,N,576,Beta-propeller,,0.46,neutral
+LDLR:c.1729T>C,WA577R,W,R,577,Beta-propeller,,0.25,neutral
+LDLR:c.1729T>G,WA577G,W,G,577,Beta-propeller,,0.00,neutral
+LDLR:c.1747C>T,HA583Y,H,Y,583,Beta-propeller,,0.00,neutral
+LDLR:c.1775G>A,GA592D,G,D,592,Beta-propeller,,0.09,neutral
+LDLR:c.1783C>T,RA595C,R,C,595,Beta-propeller,,0.17,neutral
+LDLR:c.1784G>A,RA595H,R,H,595,Beta-propeller,,0.38,neutral
+LDLR:c.1796T>C,LA599S,L,S,599,Beta-propeller,,0.00,neutral
+LDLR:c.1813C>T,LA605F,L,F,605,Beta-propeller,,0.60,neutral
+LDLR:c.1823C>A,PA608H,P,H,608,Beta-propeller,,0.78,neutral
+LDLR:c.1855T>C,FA619L,F,L,619,Beta-propeller,,0.15,neutral
+LDLR:c.185C>T,TA62I,T,I,62,Ligand-binding R1,,0.00,neutral
+LDLR:c.1860G>T,WA620C,W,C,620,Beta-propeller,,0.02,neutral
+LDLR:c.1873A>G,NA625D,N,D,625,Beta-propeller,,0.07,neutral
+LDLR:c.1876G>A,EA626K,E,K,626,Beta-propeller,,0.25,neutral
+LDLR:c.1889G>C,SA630T,S,T,630,Beta-propeller,,0.01,neutral
+LDLR:c.1916T>A,VA639D,V,D,639,EGF-like C,,0.06,neutral
+LDLR:c.1946C>T,PA649L,P,L,649,EGF-like C,,0.73,neutral
+LDLR:c.1A>T,MA1L,M,L,1,Signal peptide,,0.01,neutral
+LDLR:c.2029T>C,CA677R,C,R,677,Linker (EGF-C/O-linked),,1.87,destabilising
+LDLR:c.2087G>A,CA696Y,C,Y,696,O-linked sugar,,1.70,destabilising
+LDLR:c.2093G>T,CA698F,C,F,698,O-linked sugar,,0.37,neutral
+LDLR:c.2096C>T,PA699L,P,L,699,O-linked sugar,,0.00,neutral
+LDLR:c.2098G>A,DA700N,D,N,700,O-linked sugar,,0.04,neutral
+LDLR:c.2119G>A,DA707N,D,N,707,O-linked sugar,,0.01,neutral
+LDLR:c.2206G>A,VA736I,V,I,736,O-linked sugar,,0.00,neutral
+LDLR:c.2252G>A,RA751H,R,H,751,Transmembrane,,0.07,neutral
+LDLR:c.2301G>A,MA767I,M,I,767,Transmembrane,,0.05,neutral
+LDLR:c.232C>T,RA78C,R,C,78,Ligand-binding R1,,0.02,neutral
+LDLR:c.233G>A,RA78H,R,H,78,Ligand-binding R1,,0.01,neutral
+LDLR:c.2389G>A,VA797I,V,I,797,Cytoplasmic,,0.01,neutral
+LDLR:c.2414G>A,GA805D,G,D,805,Cytoplasmic,,0.00,neutral
+LDLR:c.241C>T,RA81C,R,C,81,Ligand-binding R1,,0.02,neutral
+LDLR:c.2441G>A,RA814H,R,H,814,Cytoplasmic,,0.00,neutral
+LDLR:c.244T>G,CA82G,C,G,82,Ligand-binding R1,,0.07,neutral
+LDLR:c.2476C>A,PA826T,P,T,826,Cytoplasmic,,0.00,neutral
+LDLR:c.2579C>T,AA860V,A,V,860,Cytoplasmic,,0.01,neutral
+LDLR:c.259T>G,WA87G,W,G,87,Ligand-binding R2,,0.26,neutral
+LDLR:c.266G>A,CA89Y,C,Y,89,Ligand-binding R2,,0.23,neutral
+LDLR:c.269A>G,DA90G,D,G,90,Ligand-binding R2,,0.02,neutral
+LDLR:c.28T>C,WA10R,W,R,10,Signal peptide,,0.01,neutral
+LDLR:c.292G>A,GA98S,G,S,98,Ligand-binding R2,,0.02,neutral
+LDLR:c.326G>A,CA109Y,C,Y,109,Ligand-binding R2,,0.10,neutral
+LDLR:c.343C>T,RA115C,R,C,115,Ligand-binding R2,,0.25,neutral
+LDLR:c.352G>T,DA118Y,D,Y,118,Ligand-binding R2,,0.19,neutral
+LDLR:c.361T>A,CA121S,C,S,121,Ligand-binding R3,,0.01,neutral
+LDLR:c.362G>T,CA121F,C,F,121,Ligand-binding R3,,0.36,neutral
+LDLR:c.418G>A,EA140K,E,K,140,Ligand-binding R3,,0.07,neutral
+LDLR:c.420G>C,EA140D,E,D,140,Ligand-binding R3,,0.00,neutral
+LDLR:c.434T>C,VA145A,V,A,145,Ligand-binding R3,,0.00,neutral
+LDLR:c.443G>A,CA148Y,C,Y,148,Ligand-binding R3,,0.14,neutral
+LDLR:c.508G>A,DA170N,D,N,170,Ligand-binding R4,,0.19,neutral
+LDLR:c.647G>T,CA216F,C,F,216,Ligand-binding R5,,0.18,neutral
+LDLR:c.661G>A,DA221N,D,N,221,Ligand-binding R5,,0.07,neutral
+LDLR:c.662A>G,DA221G,D,G,221,Ligand-binding R5,,0.15,neutral
+LDLR:c.692G>A,CA231Y,C,Y,231,Ligand-binding R5,,0.75,neutral
+LDLR:c.693C>G,CA231W,C,W,231,Ligand-binding R5,,0.42,neutral
+LDLR:c.707G>T,CA236F,C,F,236,Ligand-binding R5,,0.01,neutral
+LDLR:c.709C>T,RA237C,R,C,237,Ligand-binding R6,,0.00,neutral
+LDLR:c.718G>A,EA240K,E,K,240,Ligand-binding R6,,0.14,neutral
+LDLR:c.722T>C,FA241S,F,S,241,Ligand-binding R6,,0.03,neutral
+LDLR:c.769C>T,RA257C,R,C,257,Ligand-binding R6,,0.00,neutral
+LDLR:c.782G>A,CA261Y,C,Y,261,Ligand-binding R6,,6.66,highly_destabilising
+LDLR:c.796G>A,DA266N,D,N,266,Ligand-binding R6,,0.23,neutral
+LDLR:c.798T>A,DA266E,D,E,266,Ligand-binding R6,,1.36,destabilising
+LDLR:c.81C>G,CA27W,C,W,27,Ligand-binding R1,,0.54,neutral
+LDLR:c.827G>A,CA276Y,C,Y,276,Ligand-binding R7,,0.68,neutral
+LDLR:c.858C>A,SA286R,S,R,286,Ligand-binding R7,,0.10,neutral
+LDLR:c.862G>A,EA288K,E,K,288,Ligand-binding R7,,0.20,neutral
+LDLR:c.887G>T,CA296F,C,F,296,Ligand-binding R7,,0.46,neutral
+LDLR:c.888C>G,CA296W,C,W,296,Ligand-binding R7,,0.17,neutral
+LDLR:c.907C>T,RA303C,R,C,303,Ligand-binding R7,,0.04,neutral
+LDLR:c.912C>G,DA304E,D,E,304,Ligand-binding R7,,0.03,neutral
+LDLR:c.91G>A,EA31K,E,K,31,Ligand-binding R1,,0.05,neutral
+LDLR:c.921T>G,DA307E,D,E,307,Ligand-binding R7,,0.22,neutral
+LDLR:c.922G>A,EA308K,E,K,308,Ligand-binding R7,,0.07,neutral
+LDLR:c.932A>C,KA311T,K,T,311,Ligand-binding R7,,0.00,neutral
+LDLR:c.938G>A,CA313Y,C,Y,313,Ligand-binding R7,,0.40,neutral
+LDLR:c.938G>A c.939C>T,CA313Y,C,Y,313,Ligand-binding R7,,1.27,destabilising
+LDLR:c.949G>A,EA317K,E,K,317,EGF-like A,,0.05,neutral
+LDLR:c.967G>T,GA323C,G,C,323,EGF-like A,,0.02,neutral
+LDLR:c.979C>T,HA327Y,H,Y,327,EGF-like A,,0.01,neutral
+LDLR:c.986G>A,CA329Y,C,Y,329,EGF-like A,,0.56,neutral

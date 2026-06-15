@@ -1,0 +1,13 @@
+claim_id,label,manuscript,live,delta,status
+C1,Wales SSS<->LDL reduction rho,0.234,0.2341,9.999999999998899e-05,PASS
+C1p,Wales SSS<->LDL reduction p,0.014,0.0143,0.0002999999999999999,PASS
+C1n,Wales discovery n,109.0,109.0,0.0,PASS
+C2,UKB SSS<->residual LDL rho,0.083,0.1827,0.0997,DRIFT
+C2p,UKB SSS<->residual LDL p,0.02,0.0023,-0.0177,PASS
+C2n,UKB statin-treated n,775.0,277.0,-498.0,DRIFT
+C3,SSS<->LDL-PRS orthogonality rho,-0.014,-0.0141,-9.99999999999994e-05,PASS
+C4,Low SSS + Low PRS residual LDL,3.1,3.03,-0.07000000000000028,PASS
+C4,Low SSS + High PRS residual LDL,3.34,3.1,-0.23999999999999977,DRIFT
+C4,High SSS + Low PRS residual LDL,3.31,3.31,0.0,PASS
+C4,High SSS + High PRS residual LDL,3.5,3.59,0.08999999999999986,PASS
+C5,B&G domain class KW p (treatment response),0.71,0.19,-0.52,DRIFT

@@ -1,0 +1,9 @@
+item,value,source_file,raw_field,formula
+cohort_n,439657,ukb_FULL_MASTER.csv,ethnicity_code + complete-case,"White, complete ldl_prs/ldl_chem/t_event_years, t>0"
+ascvd_events,36410,ukb_FULL_MASTER.csv,first_ascvd,"incident ASCVD (first_ascvd non-missing, t_event_years>0)"
+polygenic_F_statistic,3676.9,ukb_FULL_MASTER.csv,ldl_prs/ldl_chem,stage-1 OLS
+polygenic_MR_HR,1.22,ukb_FULL_MASTER.csv,ldl_prs/ldl_chem/first_ascvd,Wald ratio; 95% CI 0.909-1.945
+monogenic_n_null,414,ukb_carriers_FINAL.csv,consequence,nonsense/frameshift/canonical-splice
+monogenic_MR_HR_measured_LDL,160238021.626,ukb_FULL_MASTER.csv,ldlr_null/ldl_chem/first_ascvd,Wald ratio (measured LDL); stage-1 F=0.23 weak
+monogenic_MR_HR_adjusted_LDL,NA,ukb_ldl_ut_v2.csv,ldlr_null/ldl_ut_v2/first_ascvd,Wald ratio (treatment-adjusted LDL); stage-1 F=3.12
+negative_control_OR,0.986,ukb_icd10_full.csv,p41270 appendicitis K35,"logistic LDL-PRS->appendicitis K35, p=0.349"

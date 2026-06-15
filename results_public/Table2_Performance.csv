@@ -1,0 +1,13 @@
+Metric,TUDOR,DLCN,p / Δ
+AUC — Wales overall (95% CI),0.776 (0.763–0.789),0.698 (0.685–0.711),Δ=+0.078; p<0.001
+AUC — South Wales external validation (95% CI),0.834 (0.791–0.877),—,External
+AUC — Index cases (95% CI),0.807 (0.791–0.822),—,—
+AUC — Cascade relatives (95% CI),0.708 (0.686–0.730),—,—
+NRI_events — South Wales (95% CI),+0.173 (0.014–0.338),Reference,p=0.033
+NRI_non-events — South Wales (95% CI),+0.467 (0.393–0.533),Reference,p<0.001
+IDI — South Wales (95% CI),+0.119 (0.058–0.192),Reference,p<0.001
+UKB recalibration slope (post-correction),1.000 (target),—,Pre-cal: 12.4
+UKB recalibration intercept,−3.457,—,Prevalence shift: 33% → 2.8%
+Optimal Youden threshold,0.045,Score ≥6 (definite FH),—
+Sensitivity at Youden,64.2%,~48% (literature),—
+Specificity at Youden,81.1%,~88% (literature),—

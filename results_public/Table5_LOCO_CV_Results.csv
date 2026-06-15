@@ -1,0 +1,4 @@
+Variant,Cluster,N_patients,AUC_base,AUC_sss,Delta_AUC,CI_95_lower,CI_95_upper
+APOB:c.10580G>A,Mild-benign,24,0.94,0.94,0.00,0.00,0.00
+POOLED (all variants),,218,0.76,0.76,-0.00,-0.00,0.00
+LDLR:c.418G>C,Moderate,11,1.00,1.00,0.00,0.00,0.00

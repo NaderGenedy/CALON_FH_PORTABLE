@@ -1,0 +1,15 @@
+predictor,axis,n,n_path,n_ben,auc,ci_lo,ci_hi,p_value,path_median,ben_median
+FoldX ddG (exact variant),ClinVar,570,544,26,0.6848,0.5816,0.7767,0.0007219173370477967,2.8935,1.1969
+FoldX Position Max ddG,ClinVar,719,686,33,0.7612,0.6602,0.8542,1.9599355972290124e-07,6.2111,2.2764
+FoldX Mutational Sensitivity,ClinVar,719,686,33,0.761,0.66,0.8539,1.9900339777398034e-07,0.179,0.0656
+AlphaMissense,ClinVar,783,742,41,0.9599,0.9373,0.9789,1.647703582812459e-23,0.9676,0.1082
+REVEL,ClinVar,768,728,40,0.9684,0.9508,0.9821,8.884163755252803e-24,0.916,0.478
+FoldX + AlphaMissense,ClinVar_combined,570,544,26,0.9665,,,,,
+FoldX + REVEL,ClinVar_combined,568,542,26,0.963,,,,,
+FoldX + AlphaMissense + REVEL,ClinVar_combined,568,542,26,0.9783,,,,,
+AlphaMissense + REVEL,ClinVar_combined,768,728,40,0.9794,,,,,
+FoldX ddG,Islam_function,161,69,92,0.6543,,,0.0004125354974617399,,
+FoldX Position Max ddG,Islam_function,204,84,120,0.6701,,,1.8066095237388962e-05,,
+Mutational Sensitivity,Islam_function,204,84,120,0.67,,,1.8154820085075883e-05,,
+AlphaMissense,Islam_function,234,96,138,0.7582,,,9.377496869128799e-12,,
+REVEL,Islam_function,232,96,136,0.6838,,,9.451705330824254e-07,,

@@ -1,0 +1,21 @@
+"cohort","ascvd_group","gene","n","pct"
+"South Wales FH","ASCVD+","APOB",6,9.8
+"South Wales FH","ASCVD+","LDLR",47,77
+"South Wales FH","ASCVD+","Other",8,13.1
+"South Wales FH","ASCVD-","APOB",43,12
+"South Wales FH","ASCVD-","LDLR",287,80.4
+"South Wales FH","ASCVD-","Other",22,6.2
+"South Wales FH","ASCVD-","PCSK9",5,1.4
+"UKB","ASCVD+","APOB",75,18.8
+"UKB","ASCVD+","LDLR",324,81.2
+"UKB","ASCVD-","APOB",227,18.5
+"UKB","ASCVD-","LDLR",998,81.4
+"UKB","ASCVD-","PCSK9",1,0.1
+"Wales","ASCVD+","APOB",38,10.1
+"Wales","ASCVD+","LDLR",302,80.5
+"Wales","ASCVD+","Other",31,8.3
+"Wales","ASCVD+","PCSK9",4,1.1
+"Wales","ASCVD-","APOB",243,12
+"Wales","ASCVD-","LDLR",1602,78.9
+"Wales","ASCVD-","Other",166,8.2
+"Wales","ASCVD-","PCSK9",19,0.9

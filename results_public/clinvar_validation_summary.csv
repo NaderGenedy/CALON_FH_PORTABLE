@@ -1,0 +1,3 @@
+analysis,n_pathogenic,n_benign,path_median_ddg,ben_median_ddg,p_value,auc
+Islam_exact_ddG,70,12,2.16,1.15,0.053782,0.565
+Islam_position_maxddG,92,14,5.46,2.61,0.033338,0.653

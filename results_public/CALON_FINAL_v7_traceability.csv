@@ -1,0 +1,14 @@
+item,value,source,formula
+pass_master_rows,7253,D:/Projects/CALON_AlphaFold_Rebuild/data/pass_FULL_MASTER.csv,raw PASS rows
+dragon3_rows,1362,C:/Users/nader/Downloads/calon_ukb_pipeline/DRAGON_3.csv,raw DRAGON_3 rows
+pass_dragon_join,424,PASS x DRAGON,inner join on participant_id == DatabaseNumber
+clean_age_recovered,325,DRAGON,mesearment_age_1 numeric OR BirthDate+MeasurementDate_1 valid
+fh_positive_filter,321,PASS+DRAGON,Positive1==1 (DRAGON) OR mutation_positive==1 (PASS)
+family_deduped_n,200,PASS+DRAGON,"drop_duplicates(family_id, keep=proband-or-first)"
+wales_clean_events,54,D:/Projects/CALON_AlphaFold_Rebuild/data/pass_FULL_MASTER.csv,sum of mi_acs|pci|cabg|angina|tia|pvd > 0
+ukb_carriers_n,3540,D:/Projects/CALON_AlphaFold_Rebuild/data/ukb_FULL_MASTER.csv,rows in ukb_FULL_MASTER.csv matching eid in ukb_carriers_FINAL.csv
+ukb_events,165,D:/Projects/CALON_AlphaFold_Rebuild/data/ukb_FULL_MASTER.csv,prevalent_ascvd column
+A_delta_AUC,+0.0634,paired bootstrap,"CI (+0.0436, +0.0840), p=0.0000"
+B_delta_AUC,+0.0856,paired bootstrap,"CI (+0.0163, +0.1561), p=0.0130"
+A_NRI_total,+0.2464,computed,"categorical NRI cuts (0.05, 0.2)"
+B_NRI_total,+0.2382,computed,"categorical NRI cuts (0.05, 0.2)"

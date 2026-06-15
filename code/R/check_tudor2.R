@@ -1,0 +1,5 @@
+d <- read.csv("TUDOR_UKB_Features (1).csv", nrows=2)
+nms <- names(d)
+cat("All columns:\n")
+writeLines(nms)
+cat("\nTotal columns:", length(nms), "\n")
