@@ -114,6 +114,40 @@ LDLR molecular pathway, ACMG/AMP classification, AlphaFold confidence bands, pub
 
 ---
 
+## 6. Google DeepMind Science Skills (vendored, `.claude/skills/`)
+
+**What:** the 40-skill [google-deepmind/science-skills](https://github.com/google-deepmind/science-skills)
+collection (release `v1.2.1`, commit `68832757`), built into the repo under `.claude/skills/` so
+Claude Code discovers them automatically. Apache-2.0 code / CC-BY-4.0 docs; per-database terms in
+`.claude/skills/SKILL_LICENSES.md`. Unmodified from upstream.
+
+**How they run:** every helper is a `uv run scripts/<x>.py ...` CLI with inline (PEP 723) or
+per-skill `pyproject.toml` dependencies, so the first call resolves and caches packages. Credentials
+(`ALPHAGENOME_API_KEY`, optional `NCBI_API_KEY`, `USER_EMAIL` for EBI tools) live in `~/.env` and are
+checked with the quiet protocol in `.claude/skills/credentials/SKILL.md` -- never pasted into chat.
+
+**Build / verify:** `python build_science_skills.py` regenerates `.claude/skills/SCIENCE_SKILLS_INDEX.md`
+and smoke-tests every script (`--help` under uv), writing `docs/SCIENCE_SKILLS_BUILD_REPORT.md`
+(PASS / CRED / FAIL per script). `--update` re-syncs from upstream at the pinned tag.
+
+**Where they fit this programme** (full table in `.claude/skills/README.md`):
+
+| Programme need | Skills |
+|---|---|
+| LDLR variant labels, frequencies, constraint for SSS v3 | `clinvar_database`, `dbsnp_database`, `gnomad_database`, `ensembl_database`, `uniprot_database` |
+| Structural layers (FoldX ddG, B&G domain, pLDDT) | `alphafold_database_fetch_and_analyze`, `pdb_database`, `pymol`, `foldseek_structural_search`, `interpro_database` |
+| AlphaGenome L2 / splice layers | `alphagenome_variant_impact_score`, `alphagenome_single_variant_analysis`, `alphagenome_atlas_website_links` |
+| Non-coding / regulatory context | `ucsc_conservation_and_tfbs`, `encode_ccres_database`, `jaspar_database`, `unibind_database` |
+| Literature for TUDOR / CALON manuscripts | `pubmed_database`, `literature_search_europepmc`, `literature_search_openalex`, `literature_search_biorxiv`, `literature_search_arxiv` |
+| Lipid-lowering drug and trial landscape | `clinical_trials_database`, `chembl_database`, `pubchem_database`, `openfda_database`, `opentargets_database` |
+| Expression, pathway, ontology | `gtex_database`, `human_protein_atlas_database`, `reactome_database`, `string_database`, `quickgo_database`, `embl_ebi_ols` |
+| Utilities | `uv`, `credentials`, `workflow_skill_creator`, `ncbi_sequence_fetch`, `protein_sequence_msa`, `protein_sequence_similarity_search` |
+
+Project rules sit on top of these tools: UK Biobank participant data never passes through any of
+these APIs, and every number they return is traced to its source before it reaches a manuscript.
+
+---
+
 ## How the skills enforce quality
 
 The skills exist because of specific past failures:
