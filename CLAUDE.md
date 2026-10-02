@@ -93,3 +93,11 @@ JCL, Circulation, JAMA Cardiology (not Nature Med/NEJM without multi-cohort/mech
 
 Python **3.12** only. R 4.5.x. Windows console is cp1252 — never print Unicode arrows/em-dashes;
 use ASCII (`->`, `--`). Always `open(..., encoding='utf-8')`. Dual-format deliverables (md + docx).
+
+## Skills
+
+- Project skills (tudor-qc, cox-analysis, manuscript-qc, ...): `skills/`, documented in `docs/SKILLS.md`.
+- Google DeepMind Science Skills (40, pinned v1.2.1): `.claude/skills/` -- ClinVar, gnomAD, Ensembl,
+  UniProt, AlphaFold, AlphaGenome, PubMed/EuropePMC/OpenAlex, ClinicalTrials.gov, ChEMBL, etc.
+  Run via `uv run scripts/<x>.py`; keys in `~/.env` (see `.claude/skills/credentials/SKILL.md`).
+  Rebuild / verify with `python build_science_skills.py`; index in `.claude/skills/SCIENCE_SKILLS_INDEX.md`.

@@ -57,7 +57,8 @@ NoAgeLDL, ICD-10/OPCS lists, TRIPOD, E-values) are in `docs/INSTRUCTIONS.md`.
 2. Paste the contents of **`CLAUDE.md`** (root) — it bootstraps the full programme
    context.
 3. Point Claude at **`docs/PROJECTS_OVERVIEW.md`** (the whole map) and
-   **`skills/`** (the 16 + restart skill). Then ask for the piece you need; restore
+   **`skills/`** (the 16 + restart skill). The 40 Google DeepMind science skills in
+   `.claude/skills/` load automatically; `python build_science_skills.py` verifies them. Then ask for the piece you need; restore
    `data/` first if the task needs participant data.
 
 ## 6. What's verified / outperforms
